@@ -1,0 +1,22 @@
+# Rust
+/target/
+**/*.rs.bk
+Cargo.lock
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+build/
+dist/
+*.spec
+
+# Exécutables locaux et fichiers temporaires (sauf sites.json)
+engine.exe
+*.csv
+demande_suppression_*.txt
+deletion_request_*.txt
+
+# OS
+.DS_Store
+Thumbs.db
