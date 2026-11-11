@@ -44,6 +44,43 @@ Le projet est divisé en deux parties pour allier performance et flexibilité :
 Ils communiquent en temps réel via `stdout` en utilisant le format **JSON Lines**.
 
 ---
+## 💡 Lancement & Utilisation
+
+Assurez-vous d'avoir les fichiers sites.json et contacts.json (téléchargeables depuis JustDeleteMe / inclus dans le projet) dans le même dossier que l'exécutable.
+
+Lancez rgpd-cleaner.exe (ou ./rgpd-cleaner).
+
+Entrez votre adresse email.
+
+Cochez la case de certification.
+
+Cliquez sur Scanner.
+
+Filtrez par méthode (commencez par les 🟢 Directs, c'est le plus rapide !).
+
+Suivez les instructions ou téléchargez le courrier généré.
+
+## 🔐 Privacy by Design
+
+Ce projet applique à lui-même les principes qu'il aide à faire respecter :
+
+Minimisation des données : Les fichiers CSV générés par holehe sont supprimés immédiatement après lecture, même en cas de crash du programme (géré par atexit et SIGTERM).
+
+Pas d'envoi automatique : L'application génère des fichiers .txt locaux. C'est vous qui envoyez l'email, depuis votre adresse, pour garantir la traçabilité juridique.
+
+Open Source : Le code est entièrement auditable.
+
+## 📜 Licence
+
+Ce projet est sous licence MIT. Consultez le fichier LICENSE pour plus de détails.
+
+## 🙏 Remerciements
+
+JustDeleteMe pour leur base de données exceptionnelle.
+
+holehe pour le moteur de détection.
+
+egui pour le framework GUI Rust incroyable.
 
 ## 🚀 Installation & Utilisation
 
