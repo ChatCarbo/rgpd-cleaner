@@ -65,35 +65,3 @@ pyinstaller --onefile engine.py
 
 # 3. Compiler l'interface Rust
 cargo build --release
-
-Lancement
-
-Assurez-vous d'avoir le fichier sites.json (téléchargeable depuis JustDeleteMe) dans le même dossier que l'exécutable, puis lancez rgpd-cleaner.exe.
-
-    Entrez votre adresse email.
-
-    Cochez la case de certification.
-
-    Cliquez sur "Scanner".
-
-    Filtrez par méthode (commencez par les 🟢 Directs, c'est le plus rapide !).
-
-    Suivez les instructions ou téléchargez le courrier généré.
-
-🔐 Privacy by Design
-
-Ce projet applique à lui-même les principes qu'il aide à faire respecter.
-
-    Minimisation des données : Les fichiers CSV générés par holehe sont supprimés immédiatement après lecture, même en cas de crash du programme (géré par atexit et SIGTERM).
-
-    Pas d'envoi automatique : L'application génère des fichiers .txt locaux. C'est vous qui envoyez l'email, depuis votre adresse, pour garantir la traçabilité juridique.
-
-    Open Source : Le code est entièrement auditable.
-
-🙏 Remerciements
-
-    JustDeleteMe pour leur base de données exceptionnelle.
-
-    holehe pour le moteur de détection.
-
-    egui pour le framework GUI Rust incroyable.
