@@ -15,8 +15,6 @@ En 2025, un internaute moyen possède **plus de 100 comptes en ligne**, souvent 
 
 **RGPD Cleaner part d'un principe simple :** votre droit à l'effacement est **gratuit**, **légal**, et **vous pouvez l'exercer vous-même**.
 
-Inspiré par la philosophie des créateurs de contenu qui nous apprennent à ne plus se faire avoir sur internet (merci [@madameb0nplan](https://www.instagram.com/madameb0nplan/)), cet outil vous donne les clés pour faire le ménage, sans payer.
-
 ---
 
 ## ✨ Fonctionnalités
